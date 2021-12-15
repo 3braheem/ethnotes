@@ -1,0 +1,120 @@
+body {
+  background-color: #1c1c1c;
+  color: whitesmoke;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: Inter;
+  background: -webkit-linear-gradient(45deg,#eee, #b795ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bio {
+  text-align: center;
+  color: #e5e5e5;
+  margin-top: 16px;
+  font-size: 14px;
+  font-family: Inter;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background: white;
+  color: #1c1c1c;
+  font-family: Inter;
+  font-weight: 600;
+  width: 24rem;
+}
+
+.connectButton {
+  cursor: pointer;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  background: linear-gradient(270deg, #d6c3ff, white);
+  color: #1c1c1c;
+  font-family: Inter;
+  font-weight: 600;
+  width: 12rem;
+}
+
+.buttonAlign {
+  display: flex;
+  justify-content: center;
+}
+
+.inputAlign {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.noteInput {
+  background: #1c1c1c;
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  border-color: #b795ff;
+  border-width: 0.05rem;
+  border-style: solid;
+  width: 24rem;
+}
+
+.Note {
+  margin-top: 16px; 
+  padding: 16px;
+  font-family: Inter;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: solid;
+  border-width: 0.05rem;
+  border-color: #b795ff;
+}
+
+.NoteFamily {
+  justify-content: center;
+  align-content: center;
+}
+
+.addy {
+  color: #caffdb;
+}
+
+.msg {
+  color: #e8ddff;
+  font-size: 16px;
+}
+
+.loader {
+  margin-top: 16px;
+  margin: 16px;
+}
