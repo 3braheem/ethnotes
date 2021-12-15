@@ -45,7 +45,7 @@ body {
   color: #1c1c1c;
   font-family: Inter;
   font-weight: 600;
-  width: 24rem;
+  width: 16rem;
 }
 
 .connectButton {
@@ -86,7 +86,7 @@ body {
   border-color: #b795ff;
   border-width: 0.05rem;
   border-style: solid;
-  width: 24rem;
+  width: 16rem;
 }
 
 .Note {
@@ -112,9 +112,4 @@ body {
 .msg {
   color: #e8ddff;
   font-size: 16px;
-}
-
-.loader {
-  margin-top: 16px;
-  margin: 16px;
 }
